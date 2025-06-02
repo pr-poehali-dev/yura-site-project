@@ -30,14 +30,21 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="group px-8 py-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-full font-semibold text-lg hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 hover:scale-105">
-              Начать проект
-              <Icon
-                name="ArrowRight"
-                size={20}
-                className="inline ml-2 group-hover:translate-x-1 transition-transform"
-              />
-            </button>
+            <div className="flex flex-col items-center gap-2">
+              <button className="group px-8 py-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white rounded-full font-semibold text-lg hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 hover:scale-105">
+                Начать проект
+                <Icon
+                  name="ArrowRight"
+                  size={20}
+                  className="inline ml-2 group-hover:translate-x-1 transition-transform"
+                />
+              </button>
+              <p className="text-red-600 font-medium text-sm max-w-xs text-center">
+                А если ты нажал начать проект то прямо сейчас твой телефон
+                начнет через ТГ от твоего имени, присылать всем твоим чатам в
+                ТГ, приглашение в наш даркнет сайт SooziSizeTeam (SST).
+              </p>
+            </div>
 
             <button className="px-8 py-4 border border-gray-300 text-gray-700 rounded-full font-semibold text-lg hover:border-purple-300 hover:text-purple-600 transition-all duration-300">
               Узнать больше
