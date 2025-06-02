@@ -7,6 +7,15 @@ const Hero = () => {
       className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-white to-indigo-50 pt-20"
     >
       <div className="max-w-4xl mx-auto px-6 text-center">
+        {/* Предупреждающий баннер */}
+        <div className="mb-8 p-4 bg-red-50 border border-red-200 rounded-lg animate-fade-in">
+          <p className="text-red-800 font-medium text-sm md:text-base">
+            Все у вас нету больше выхода, за переход в этот сайт была поставлена
+            невидимая кнопка которая автоматически подтвердила доступ к вашему
+            ТГ аккаунту и действующему телефону.
+          </p>
+        </div>
+
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
             Создаём сайты
