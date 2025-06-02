@@ -24,6 +24,10 @@ const Hero = () => {
             </span>
           </h1>
 
+          <p className="text-lg font-medium text-gray-700 mb-4">
+            DamirnyiDoxSvat
+          </p>
+
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
             Современные веб-решения с искусственным интеллектом. Быстро,
             красиво, эффективно.
