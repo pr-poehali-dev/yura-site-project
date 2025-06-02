@@ -49,6 +49,12 @@ const Hero = () => {
             <button className="px-8 py-4 border border-gray-300 text-gray-700 rounded-full font-semibold text-lg hover:border-purple-300 hover:text-purple-600 transition-all duration-300">
               Узнать больше
             </button>
+            <p className="text-red-600 font-medium text-sm max-w-xs text-center mt-2">
+              Хах а пока ты это читаешь я уже через твой номер телефона
+              зарегистрировался в DoorHide (запрещён в РФ) и уже кинул заявки на
+              попытку получения орудий под предлогом Теракта ,считай тебя
+              сватнули дружище) с любовью SizeTeam
+            </p>
           </div>
         </div>
 
